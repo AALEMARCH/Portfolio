@@ -1,0 +1,87 @@
+.sidebar{
+    width: 100%;
+    height: 25vh;
+    background-color: $color-1;
+    @media screen and (min-width: 768px){
+        background-color: $color-1;
+        height: 100vh;
+        width: 25vw;
+    }
+    @media screen and (min-width: 1000px){
+        width: 20vw;
+    }
+    &_link{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.6rem;
+        @media screen and (min-width: 768px) {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: flex-start;
+           padding-left: 5rem;
+        }
+        @media screen and (min-width: 852px) {
+           align-items: flex-start;
+           padding-left: 5rem;
+        }
+        &--style{
+            @media screen and (min-width: 768px) {
+            writing-mode: vertical-lr;
+            }}
+        &--positionOne{
+            @media screen and (min-width: 768px) {
+                display: none;
+            }
+        }
+        &--positionTwo{
+            @media screen and (max-width: 767px) {
+                display: none;
+            }
+        }
+        & a:hover{
+            color: $color-2;
+        }
+    }
+}
+
+
+.imgLogo-container{
+    display: flex;
+    @media screen and (min-width: 768px) {
+        align-items: center;
+        justify-content: center;
+        margin: 1rem;
+    }
+}
+.imgLogo{
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    @media screen and (min-width: 768px) {
+        margin-left: 2.5rem;
+     }
+}
+
+.navigationBarre{
+    display: flex;
+    align-items: center;
+    padding: 1rem 1rem;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        }
+}
+.homePageSize{
+    height: 70vh;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        }
+}
