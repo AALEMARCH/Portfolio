@@ -9,7 +9,7 @@ const PortfolioHandle = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="./media/booki.png"
+            src="./media/booki.webp"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -29,7 +29,7 @@ const PortfolioHandle = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="./media/OhMyFood.png"
+            src="./media/OhMyFood.webp"
             alt="Second slide"
           />
 
@@ -49,7 +49,7 @@ const PortfolioHandle = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="./media/laChouetteAgence.png"
+            src="./media/laChouetteAgence_1.webp"
             alt="Third slide"
           />
 
@@ -69,7 +69,7 @@ const PortfolioHandle = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="./media/kanap.png"
+            src="./media/kanap.webp"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -90,7 +90,7 @@ const PortfolioHandle = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="./media/hotTakes.png"
+            src="./media/hotTakes.webp"
             alt="Second slide"
           />
 
@@ -112,7 +112,7 @@ const PortfolioHandle = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="./media/groupomania.png"
+            src="./media/groupomania.webp"
             alt="Third slide"
           />
 

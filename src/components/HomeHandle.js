@@ -7,7 +7,7 @@ const HomeHandle = () => {
       <div className="presentation">
         <div className="imgModerate-container">
           <img
-            src="./media/1632852746072.jpg"
+            src="./media/portrait.webp"
             className="imgModerate"
             alt="moderate-pic"
           />
