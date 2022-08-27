@@ -21,6 +21,7 @@ const PortfolioHandle = () => {
               target="_blank"
               rel="noreferrer"
               className="carousel_link"
+              aria-label="Portfolio : Chemin vers le site Booki - HTML CSS"
             >
               <Button variant="outline-dark">Visiter le site web</Button>
             </a>
@@ -41,6 +42,7 @@ const PortfolioHandle = () => {
               target="_blank"
               rel="noreferrer"
               className="carousel_link"
+              aria-label="Portfolio : lien vers le site Oh my food - HTML SASS"
             >
               <Button variant="outline-dark">Visiter le site web</Button>
             </a>
@@ -61,6 +63,7 @@ const PortfolioHandle = () => {
               target="_blank"
               rel="noreferrer"
               className="carousel_link"
+              aria-label="Portfolio : Chemin vers le la Chouette Agence - SEO"
             >
               <Button variant="outline-dark">Visiter le site web</Button>
             </a>
@@ -80,6 +83,7 @@ const PortfolioHandle = () => {
               target="_blank"
               rel="noreferrer"
               className="carousel_link"
+              aria-label="Portfolio : Chemin vers le code source du projet Kanap"
             >
               <Button variant="outline-dark">
                 Lien vers le repository Github
@@ -102,6 +106,7 @@ const PortfolioHandle = () => {
               target="_blank"
               rel="noreferrer"
               className="carousel_link"
+              aria-label="Portfolio : Chemin vers le code source du projet Hot Takes"
             >
               <Button variant="outline-dark">
                 Lien vers le repository Github
@@ -124,6 +129,7 @@ const PortfolioHandle = () => {
               target="_blank"
               rel="noreferrer"
               className="carousel_link"
+              aria-label="Portfolio : Chemin vers le code source du projet Groupomania"
             >
               <Button variant="outline-dark">
                 Lien vers le repository Github

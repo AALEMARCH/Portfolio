@@ -13,19 +13,28 @@ const ContactHandle = () => {
                 href="https://goo.gl/maps/uSSxeBgV46L2UkWU7"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="chemin vers google map"
               >
                 Guignen (télétravail possible)
               </a>
             </li>
             <li>
               <i className="fa-solid fa-paper-plane contactIcon"></i>
-              <a href="mailto:lemarchand.antoine00@gmail.com">
+              <a
+                href="mailto:lemarchand.antoine00@gmail.com"
+                aria-label="Lien pour contacter Antoine Lemarchand par email"
+              >
                 Lien pour me contacter par email
               </a>
             </li>
             <li>
               <i className="fa-solid fa-phone contactIcon"></i>
-              <a href="tel:0786720571">0786720571</a>
+              <a
+                href="tel:0786720571"
+                aria-label="lien pour appeler Antoine Lemarchand"
+              >
+                0786720571
+              </a>
             </li>
           </ul>
         </div>

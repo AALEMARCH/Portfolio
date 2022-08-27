@@ -9,7 +9,7 @@ const HomeHandle = () => {
           <img
             src="./media/portrait.webp"
             className="imgModerate"
-            alt="moderate-pic"
+            alt="Antoine Lemarchand - developpeur web"
           />
         </div>
         <div className="presentation_sectionAbout">
