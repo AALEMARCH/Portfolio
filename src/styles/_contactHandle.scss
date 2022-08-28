@@ -1,8 +1,7 @@
 .contactPageSize{
+    height: 100vh;
     @media screen and (min-width: 768px) {
-        display: grid;
-        grid-template-columns: 1fr 7fr !important;
-        grid-template-rows: 1fr;
+        @include grid (1fr 7fr !important, 1fr);
     }  
 }
 
@@ -36,10 +35,11 @@
         left: 10vw;
         border-top: 2px solid $color-3;
         border-left: 1px solid $color-3;
-        padding: 3rem;
+        padding: 1rem;
         font-size: 1.1rem;
         @media screen and (min-width: 376px) {
             font-size: 1.4rem;
+            padding: 3rem;
         }  
         & >h1{
             text-transform: uppercase;

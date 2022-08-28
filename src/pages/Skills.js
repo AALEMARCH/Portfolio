@@ -1,12 +1,15 @@
 import React from "react";
 import Navigation from "../components/Navigation";
+import SkillsHandle from "../components/SkillsHandle";
+import ScrollToTop from "react-scroll-to-top";
 
 const Skills = () => {
   return (
-    <>
+    <div className="contactPageSize">
       <Navigation />
-      <div>Skills</div>
-    </>
+      <SkillsHandle />
+      <ScrollToTop smooth />
+    </div>
   );
 };
 

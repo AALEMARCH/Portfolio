@@ -10,16 +10,11 @@
         }
 }
 .presentation{
+    @include flex (center, column, center);
     height: 100%;
-    display: flex;
-    flex-direction: column;
     margin: 5rem 1rem;
-    align-items: center;
-    justify-content: center;
     @media screen and (min-width: 768px) {
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
+        @include flex (center, row, center);
         align-self: center;
         margin: 0rem;
         }
@@ -42,9 +37,7 @@ width: 40vw;
     }
 }
 .moderateName-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex (center, column, center);
     margin: 0rem 2rem;
     font-family: $font-3;
     @media screen and (min-width: 768px) {
@@ -81,8 +74,7 @@ width: 40vw;
         }
 }
 .homeFooter{
-    display: flex;
-    justify-content: space-around;
+    @include flex(space-around, row, center);
     font-size: 1.4rem;
     margin-top: 5rem;
     &> a:hover{

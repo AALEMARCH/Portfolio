@@ -11,17 +11,13 @@
         width: 20vw;
     }
     &_link{
+        @include flex (space-around, row, center);
         width: 100%;
-        display: flex;
-        justify-content: space-around;
         font-size: 1.6rem;
         @media screen and (min-width: 768px) {
+            @include flex (space-around, column, flex-start);
             height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            align-items: flex-start;
-           padding-left: 5rem;
+            padding-left: 5rem;
         }
         @media screen and (min-width: 852px) {
            align-items: flex-start;
@@ -51,8 +47,7 @@
 .imgLogo-container{
     display: flex;
     @media screen and (min-width: 768px) {
-        align-items: center;
-        justify-content: center;
+        @include flex (center, row, center);
         margin: 1rem;
     }
 }
@@ -66,15 +61,11 @@
 }
 
 .navigationBarre{
-    display: flex;
-    align-items: center;
+    @include flex (center, row, center);
     padding: 1rem 1rem;
     @media screen and (min-width: 768px) {
-        display: flex;
+        @include flex (space-around, column, flex-start);
         height: 100vh;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: flex-start;
         }
 }
 .homePageSize{
