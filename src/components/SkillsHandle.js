@@ -37,8 +37,7 @@ const SkillsHandle = () => {
           </li>
           <li>
             <i className="fa-solid fa-database skillsContainer_individual--icon"></i>
-            <h4>MySQL</h4>
-            <h4>MongoDB</h4>
+            <h4>MySQL - MongoDB</h4>
             <i className="fa-solid fa-tower-cell skillsContainer_individual--icon"></i>
             <h4>Sequelize</h4>
           </li>

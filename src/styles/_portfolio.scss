@@ -1,3 +1,14 @@
+.skillsPageSize{
+    height: 100vh;
+    @media screen and (min-width: 426px) and (max-width: 768px){
+        height: 100%;
+    }
+    @media screen and (min-width: 768px) {
+        @include grid (1fr 7fr !important, 1fr);
+        height: 100vh;
+    }  
+}
+
 .portfolioContainer{
     @include flex (space-around, column, center);
     background-color: $color-2;
@@ -5,6 +16,9 @@
     height: 83vh;
     z-index: 1;
     margin-top: -8vh;
+    @media screen and (min-width: 426px) and (max-width: 768px){
+        height: 100%;
+    }
     @media screen and (min-width: 768px) {
         height: 100vh;
         margin-top: 0px;
@@ -14,19 +28,33 @@
         font-family: $font-1;
         border-bottom: 2px solid $color-3;
         border-right: 1px solid $color-3;
-        padding: 2rem;
+        padding: 1rem;
         margin: 1.5rem;
         font-size: 2rem;
-        height: 20vh;
         @media screen and (max-width: 376px) {
             font-size: 1.5rem;
+            margin: 1rem 2rem;
         }  
+        @media screen and (min-width: 426px) and (max-width: 768px){
+            height: 25%;
+            margin-top: 1rem;
+        }
+        @media screen and (min-width: 426px) and (max-width: 768px){
+            height: 25%;
+            margin: 10rem 5rem;
+        }
+        @media screen and (min-width: 610px) and (max-width: 768px){
+            height: 25%;
+            margin-top: 10rem;
+        }
     }
 }
 
 .carousel{
     margin-top: 0.5rem;
-    height: 80vh;
+    @media screen and (min-width: 426px) and (max-width: 768px){
+        height: 75%;
+    }
     &_link{
       color: black !important;  
     }
