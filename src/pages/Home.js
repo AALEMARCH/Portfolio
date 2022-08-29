@@ -4,7 +4,7 @@ import Navigation from "../components/Navigation";
 
 const Home = () => {
   return (
-    <div className="homePageSize">
+    <div className="pageSize">
       <Navigation />
       <HomeHandle />
     </div>

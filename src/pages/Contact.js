@@ -4,8 +4,7 @@ import Navigation from "../components/Navigation";
 
 const Contact = () => {
   return (
-    <div className="contactPageSize">
-      {/* <div className="homePageSize"> */}
+    <div className="pageSize">
       <Navigation />
       <ContactHandle />
     </div>

@@ -14,7 +14,7 @@ const PortfolioHandle = () => {
           />
           <Carousel.Caption>
             <h3>Projet Booki</h3>
-            <p>Intégration de maquette en HTML et CSS</p>
+            <p>Transformer une maquette en site web avec HTML & CSS</p>
 
             <a
               href="https://aalemarch.github.io/P2_antoine_lemarchand_code/"
@@ -36,7 +36,9 @@ const PortfolioHandle = () => {
 
           <Carousel.Caption>
             <h3>Projet Oh my food</h3>
-            <p>Intégration de maquettes et animation en HTML SASS</p>
+            <p>
+              Dynamiser une page web avec des animations CSS / HTML - CSS - SASS
+            </p>
             <a
               href="https://aalemarch.github.io/AntoineLemarchand_3_29112021/"
               target="_blank"
@@ -57,7 +59,10 @@ const PortfolioHandle = () => {
 
           <Carousel.Caption>
             <h3>Projet la Chouette Agence</h3>
-            <p>SEO</p>
+            <p>
+              Optimisation d'un site web existant / SEO - Accessibilité -
+              Performances
+            </p>
             <a
               href="https://aalemarch.github.io/AntoineLemarchand_4_28122021/"
               target="_blank"
@@ -77,7 +82,10 @@ const PortfolioHandle = () => {
           />
           <Carousel.Caption>
             <h3>Projet Kanap</h3>
-            <p>Creer le Frontend d'une application en Javascript vanilla</p>
+            <p>
+              Construction d'un site e-commerce en JavaScript / JavaScript
+              Vanilla
+            </p>
             <a
               href="https://github.com/AALEMARCH/AntoineLemarchand_5_19-01-2022"
               target="_blank"
@@ -100,7 +108,10 @@ const PortfolioHandle = () => {
 
           <Carousel.Caption>
             <h3>Projet Hot Takes</h3>
-            <p>Creer le backend d'une application</p>
+            <p>
+              Construction d'une API sécurisée pour une application d'avis
+              gastronomiques / Node.JS - Express - MongoDB
+            </p>
             <a
               href="https://github.com/AALEMARCH/P6_antoine_lemarchand_code"
               target="_blank"
@@ -123,7 +134,10 @@ const PortfolioHandle = () => {
 
           <Carousel.Caption>
             <h3>Projet Groupomania</h3>
-            <p>Réseau social d'entreprise. Javascript node Js React</p>
+            <p>
+              Réseau social d'entreprise. REACT - SASS - node.Js - Express -
+              MySQL
+            </p>
             <a
               href="https://github.com/AALEMARCH/P7_antoine_lemarchand_code"
               target="_blank"

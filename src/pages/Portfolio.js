@@ -5,7 +5,7 @@ import ScrollToTop from "react-scroll-to-top";
 
 const Portfolio = () => {
   return (
-    <div className="skillsPageSize">
+    <div className="pageSize">
       <Navigation />
       <PortfolioHandle />
       <ScrollToTop smooth />
