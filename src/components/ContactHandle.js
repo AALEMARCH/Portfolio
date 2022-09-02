@@ -4,7 +4,7 @@ const ContactHandle = () => {
   return (
     <div className="contact_container">
       <div className="contact_container--position">
-        <h1>Contacter moi</h1>
+        <h1>Pour me contacter :</h1>
         <div>
           <ul>
             <li>
@@ -41,7 +41,7 @@ const ContactHandle = () => {
       </div>
       <div className="contact_container--positionTwo">
         <p>
-          N'hesitez pas à me contacter <br /> je vous repondrais des que
+          N'hésitez pas à me contacter. <br /> Je vous répondrais dès que
           possible
         </p>
       </div>

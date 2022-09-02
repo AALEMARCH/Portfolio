@@ -15,16 +15,28 @@ const PortfolioHandle = () => {
           <Carousel.Caption>
             <h3>Projet Booki</h3>
             <p>Transformer une maquette en site web avec HTML & CSS</p>
-
-            <a
-              href="https://aalemarch.github.io/P2_antoine_lemarchand_code/"
-              target="_blank"
-              rel="noreferrer"
-              className="carousel_link"
-              aria-label="Portfolio : Chemin vers le site Booki - HTML CSS"
-            >
-              <Button variant="outline-dark">Visiter le site web</Button>
-            </a>
+            <div className="carousel_link">
+              <a
+                href="https://aalemarch.github.io/P2_antoine_lemarchand_code/"
+                target="_blank"
+                rel="noreferrer"
+                className="carousel_link"
+                aria-label="Portfolio : Chemin vers le site Booki - HTML CSS"
+              >
+                <Button variant="outline-dark">Visiter le site web</Button>
+              </a>
+              <a
+                href="https://github.com/AALEMARCH/P2_antoine_lemarchand_code"
+                target="_blank"
+                rel="noreferrer"
+                className="carousel_link"
+                aria-label="Portfolio : Chemin vers le code source du projet Booki"
+              >
+                <Button variant="outline-dark">
+                  Lien vers le repository Github
+                </Button>
+              </a>
+            </div>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -39,15 +51,28 @@ const PortfolioHandle = () => {
             <p>
               Dynamiser une page web avec des animations CSS / HTML - CSS - SASS
             </p>
-            <a
-              href="https://aalemarch.github.io/AntoineLemarchand_3_29112021/"
-              target="_blank"
-              rel="noreferrer"
-              className="carousel_link"
-              aria-label="Portfolio : lien vers le site Oh my food - HTML SASS"
-            >
-              <Button variant="outline-dark">Visiter le site web</Button>
-            </a>
+            <div className="carousel_link">
+              <a
+                href="https://aalemarch.github.io/AntoineLemarchand_3_29112021/"
+                target="_blank"
+                rel="noreferrer"
+                className="carousel_link"
+                aria-label="Portfolio : lien vers le site Oh my food - HTML SASS"
+              >
+                <Button variant="outline-dark">Visiter le site web</Button>
+              </a>
+              <a
+                href="https://github.com/AALEMARCH/AntoineLemarchand_3_29112021"
+                target="_blank"
+                rel="noreferrer"
+                className="carousel_link"
+                aria-label="Portfolio : Chemin vers le code source du projet Oh my food"
+              >
+                <Button variant="outline-dark">
+                  Lien vers le repository Github
+                </Button>
+              </a>
+            </div>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -63,15 +88,28 @@ const PortfolioHandle = () => {
               Optimisation d'un site web existant / SEO - Accessibilité -
               Performances
             </p>
-            <a
-              href="https://aalemarch.github.io/AntoineLemarchand_4_28122021/"
-              target="_blank"
-              rel="noreferrer"
-              className="carousel_link"
-              aria-label="Portfolio : Chemin vers le la Chouette Agence - SEO"
-            >
-              <Button variant="outline-dark">Visiter le site web</Button>
-            </a>
+            <div className="carousel_link">
+              <a
+                href="https://aalemarch.github.io/AntoineLemarchand_4_28122021/"
+                target="_blank"
+                rel="noreferrer"
+                className="carousel_link"
+                aria-label="Portfolio : Chemin vers le la Chouette Agence - SEO"
+              >
+                <Button variant="outline-dark">Visiter le site web</Button>
+              </a>
+              <a
+                href="https://github.com/AALEMARCH/AntoineLemarchand_4_28122021"
+                target="_blank"
+                rel="noreferrer"
+                className="carousel_link"
+                aria-label="Portfolio : Chemin vers le code source du projet la Chouette Agence"
+              >
+                <Button variant="outline-dark">
+                  Lien vers le repository Github
+                </Button>
+              </a>
+            </div>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -154,10 +192,7 @@ const PortfolioHandle = () => {
       </Carousel>
 
       <div className="portfolioContainer_texte">
-        <p>
-          Voici les differents projets auquel j'ai participer durant ma
-          formation de developpeur integrateur web
-        </p>
+        <p>Voici mes réalisations.</p>
       </div>
     </div>
   );

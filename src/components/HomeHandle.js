@@ -17,9 +17,9 @@ const HomeHandle = () => {
             <div className="moderateFunction">Developpeur Web</div>
             <div className="moderateName">antoine lemarchand</div>
             <p className="abouteMe">
-              Apres une premiere vie en tant qu'Aide Médico-Psychologique, je
+              Après une première vie en tant qu'Aide Médico-psychologique, je
               décide de me reconvertir à 32 ans dans l'univers du développement
-              web. Sur ce portfolio, retrouvez mon cv, mon contact ainsi que les
+              web. Sur ce portfolio, retrouvez mon CV, mon contact ainsi que les
               projets réalisés durant ma formation.
             </p>
           </div>

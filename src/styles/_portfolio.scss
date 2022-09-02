@@ -91,6 +91,11 @@
         border-radius: 20%;
         padding: 1.5rem;
     }
+    &_link{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
 
 .w-100{
@@ -99,4 +104,3 @@
         height: 60vh; 
     }
 }
-
