@@ -1,5 +1,6 @@
 import React from "react";
 import HomeFooter from "./HomeFooter";
+import media from "../../src/media/portrait.webp";
 
 const HomeHandle = () => {
   return (
@@ -7,7 +8,7 @@ const HomeHandle = () => {
       <div className="presentation">
         <div className="imgModerate-container">
           <img
-            src="./media/portrait.webp"
+            src={media}
             className="imgModerate"
             alt="Antoine Lemarchand - developpeur web"
           />

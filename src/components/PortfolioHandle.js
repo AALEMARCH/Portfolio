@@ -1,17 +1,19 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import Button from "react-bootstrap/Button";
+import media1 from "../../src/media/booki.webp";
+import media2 from "../../src/media/OhMyFood.webp";
+import media3 from "../../src/media/laChouetteAgence_1.webp";
+import media4 from "../../src/media/kanap.webp";
+import media5 from "../../src/media/hotTakes.webp";
+import media6 from "../../src/media/groupomania.webp";
 
 const PortfolioHandle = () => {
   return (
     <div className="portfolioContainer">
       <Carousel fade>
         <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="./media/booki.webp"
-            alt="First slide"
-          />
+          <img className="d-block w-100" src={media1} alt="First slide" />
           <Carousel.Caption>
             <h3>Projet Booki</h3>
             <p>Transformer une maquette en site web avec HTML & CSS</p>
@@ -40,11 +42,7 @@ const PortfolioHandle = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="./media/OhMyFood.webp"
-            alt="Second slide"
-          />
+          <img className="d-block w-100" src={media2} alt="Second slide" />
 
           <Carousel.Caption>
             <h3>Projet Oh my food</h3>
@@ -76,11 +74,7 @@ const PortfolioHandle = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="./media/laChouetteAgence_1.webp"
-            alt="Third slide"
-          />
+          <img className="d-block w-100" src={media3} alt="Third slide" />
 
           <Carousel.Caption>
             <h3>Projet la Chouette Agence</h3>
@@ -113,11 +107,7 @@ const PortfolioHandle = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="./media/kanap.webp"
-            alt="First slide"
-          />
+          <img className="d-block w-100" src={media4} alt="First slide" />
           <Carousel.Caption>
             <h3>Projet Kanap</h3>
             <p>
@@ -138,11 +128,7 @@ const PortfolioHandle = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="./media/hotTakes.webp"
-            alt="Second slide"
-          />
+          <img className="d-block w-100" src={media5} alt="Second slide" />
 
           <Carousel.Caption>
             <h3>Projet Hot Takes</h3>
@@ -164,11 +150,7 @@ const PortfolioHandle = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="./media/groupomania.webp"
-            alt="Third slide"
-          />
+          <img className="d-block w-100" src={media6} alt="Third slide" />
 
           <Carousel.Caption>
             <h3>Projet Groupomania</h3>

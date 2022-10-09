@@ -1,4 +1,5 @@
 import React from "react";
+import media from "../../src/media/cv_antoine_lemarchand-min.pdf";
 
 const HomeFooter = () => {
   return (
@@ -27,7 +28,7 @@ const HomeFooter = () => {
           <span className="sidebar_link--positionTwo">github</span>
         </a>
         <a
-          href="./media/cv_antoine_lemarchand-min.pdf"
+          href={media}
           aria-label="lien pour télécharger le CV de Antoine"
           download
         >
