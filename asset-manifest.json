@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.83e33c70.css",
-    "main.js": "/ReactPortfolio/static/js/main.1fb3a7da.js",
+    "main.css": "/ReactPortfolio/static/css/main.09fd56c6.css",
+    "main.js": "/ReactPortfolio/static/js/main.483d624a.js",
     "static/js/787.f6e65957.chunk.js": "/ReactPortfolio/static/js/787.f6e65957.chunk.js",
+    "static/media/univers.webp": "/ReactPortfolio/static/media/univers.d3304bd2f776a305dbed.webp",
     "static/media/cv_antoine_lemarchand-min.pdf": "/ReactPortfolio/static/media/cv_antoine_lemarchand-min.0236671ceab9344c1245.pdf",
     "static/media/kanap.webp": "/ReactPortfolio/static/media/kanap.9b6749e412020d8e8292.webp",
     "static/media/laChouetteAgence_1.webp": "/ReactPortfolio/static/media/laChouetteAgence_1.a77b5312d2b2af5ea343.webp",
@@ -14,12 +15,12 @@
     "static/media/groupomania.webp": "/ReactPortfolio/static/media/groupomania.3acb32ba3c91e76545ec.webp",
     "static/media/hotTakes.webp": "/ReactPortfolio/static/media/hotTakes.eb5adaef95705f96ff70.webp",
     "index.html": "/ReactPortfolio/index.html",
-    "main.83e33c70.css.map": "/ReactPortfolio/static/css/main.83e33c70.css.map",
-    "main.1fb3a7da.js.map": "/ReactPortfolio/static/js/main.1fb3a7da.js.map",
+    "main.09fd56c6.css.map": "/ReactPortfolio/static/css/main.09fd56c6.css.map",
+    "main.483d624a.js.map": "/ReactPortfolio/static/js/main.483d624a.js.map",
     "787.f6e65957.chunk.js.map": "/ReactPortfolio/static/js/787.f6e65957.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83e33c70.css",
-    "static/js/main.1fb3a7da.js"
+    "static/css/main.09fd56c6.css",
+    "static/js/main.483d624a.js"
   ]
 }
