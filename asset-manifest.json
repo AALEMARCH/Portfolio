@@ -1,17 +1,25 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.83e33c70.css",
-    "main.js": "/ReactPortfolio/static/js/main.f0abd2f5.js",
-    "static/js/787.1ed0c42c.chunk.js": "/ReactPortfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/web.webp": "/ReactPortfolio/static/media/web.1116f784d8b8381dcfa6.webp",
-    "static/media/keyboard.webp": "/ReactPortfolio/static/media/keyboard.da7b58f8096a3590e8ca.webp",
-    "index.html": "/ReactPortfolio/index.html",
-    "main.83e33c70.css.map": "/ReactPortfolio/static/css/main.83e33c70.css.map",
-    "main.f0abd2f5.js.map": "/ReactPortfolio/static/js/main.f0abd2f5.js.map",
-    "787.1ed0c42c.chunk.js.map": "/ReactPortfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/ReactPortfolio/home/static/css/main.4e31cbef.css",
+    "main.js": "/ReactPortfolio/home/static/js/main.9f9e61e2.js",
+    "static/js/787.f6e65957.chunk.js": "/ReactPortfolio/home/static/js/787.f6e65957.chunk.js",
+    "static/media/cv_antoine_lemarchand-min.pdf": "/ReactPortfolio/home/static/media/cv_antoine_lemarchand-min.0236671ceab9344c1245.pdf",
+    "static/media/kanap.webp": "/ReactPortfolio/home/static/media/kanap.9b6749e412020d8e8292.webp",
+    "static/media/laChouetteAgence_1.webp": "/ReactPortfolio/home/static/media/laChouetteAgence_1.a77b5312d2b2af5ea343.webp",
+    "static/media/booki.webp": "/ReactPortfolio/home/static/media/booki.e95345a8499b975248e3.webp",
+    "static/media/OhMyFood.webp": "/ReactPortfolio/home/static/media/OhMyFood.f7854aea07f809b21f5c.webp",
+    "static/media/web.webp": "/ReactPortfolio/home/static/media/web.1116f784d8b8381dcfa6.webp",
+    "static/media/keyboard.webp": "/ReactPortfolio/home/static/media/keyboard.da7b58f8096a3590e8ca.webp",
+    "static/media/portrait.webp": "/ReactPortfolio/home/static/media/portrait.b8c2e1040658f1d5ce3b.webp",
+    "static/media/groupomania.webp": "/ReactPortfolio/home/static/media/groupomania.3acb32ba3c91e76545ec.webp",
+    "static/media/hotTakes.webp": "/ReactPortfolio/home/static/media/hotTakes.eb5adaef95705f96ff70.webp",
+    "index.html": "/ReactPortfolio/home/index.html",
+    "main.4e31cbef.css.map": "/ReactPortfolio/home/static/css/main.4e31cbef.css.map",
+    "main.9f9e61e2.js.map": "/ReactPortfolio/home/static/js/main.9f9e61e2.js.map",
+    "787.f6e65957.chunk.js.map": "/ReactPortfolio/home/static/js/787.f6e65957.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83e33c70.css",
-    "static/js/main.f0abd2f5.js"
+    "static/css/main.4e31cbef.css",
+    "static/js/main.9f9e61e2.js"
   ]
 }
