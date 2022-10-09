@@ -3,19 +3,40 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "media/portrait.webp",
+      "type": "image/webp"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "media/booki.webp",
+      "type": "image/webp"
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "src": "media/cv_antoine_lemarchand-min.pdf",
+      "type": "Fichier pdf"
+    },
+    {
+      "src": "media/groupomania.webp",
+      "type": "image/webp"
+    },
+    {
+      "src": "media/hotTakes.webp",
+      "type": "image/webp"
+    },
+    {
+      "src": "media/kanap.webp",
+      "type": "image/webp"
+    },
+    {
+      "src": "media/laChouetteAgence_1.webp",
+      "type": "image/webp"
+    },
+    {
+      "src": "media/laptop.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "media/OhMyFood.webp",
+      "type": "image/webp"
     }
   ],
   "start_url": ".",

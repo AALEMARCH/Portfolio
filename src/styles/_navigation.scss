@@ -43,23 +43,6 @@
     }
 }
 
-
-.imgLogo-container{
-    display: flex;
-    @media screen and (min-width: 768px) {
-        @include flex (center, row, center);
-        margin: 1rem;
-    }
-}
-.imgLogo{
-    border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
-    @media screen and (min-width: 768px) {
-        margin-left: 2.5rem;
-     }
-}
-
 .navigationBarre{
     @include flex (center, row, center);
     width: 100%;

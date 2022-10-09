@@ -26,21 +26,39 @@
         }
     }
 }
+// .imgModerate-container{
+// margin: 5rem auto 5rem auto;
+// height: 100%;
+// border-radius: 60%;
+// box-shadow: 0 0 0 4px $color-2, 0 0 0 9px $color-1;
+// width: 45%;
+// background: url(../../src/media/portrait.webp) no-repeat center/cover;
+
+// @media screen and (min-width: 426px) {
+//     width: 30%;
+//     }
+// @media screen and (min-width: 768px) {
+//     width: 20vw;
+//     }
+// }
+
+
 .imgModerate-container{
-margin: 0rem auto 5rem auto;
-}
-.imgModerate{
-position: relative;
-border-radius: 50%;
-box-shadow: 0 0 0 4px $color-2, 0 0 0 9px $color-1;
-width: 40vw;
-@media screen and (min-width: 426px) {
-    width: 30vw;
+    margin: 0rem auto 5rem auto;
     }
-@media screen and (min-width: 768px) {
-    width: 20vw;
+    .imgModerate{
+    position: relative;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px $color-2, 0 0 0 9px $color-1;
+    width: 40vw;
+    @media screen and (min-width: 426px) {
+        width: 30vw;
+        }
+    @media screen and (min-width: 768px) {
+        width: 20vw;
+        }
     }
-}
+
 .moderateName-container{
     @include flex (center, column, center);
     margin: 0rem 2rem;

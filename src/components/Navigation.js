@@ -5,9 +5,6 @@ const Navigation = () => {
   return (
     <div className="sidebar">
       <div className="navigationBarre">
-        <div className="imgLogo-container">
-          <img src="./media/logo.png" className="imgLogo" alt="logo-pic" />
-        </div>
         <div className="sidebar_link">
           <NavLink
             to="/"
