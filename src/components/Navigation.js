@@ -7,7 +7,7 @@ const Navigation = () => {
       <div className="navigationBarre">
         <div className="sidebar_link">
           <NavLink
-            to="/home"
+            to="/ReactPortfolio/"
             className="sidebar_link--style"
             aria-label="Navigation : Chemin vers la page d'accueil"
           >
@@ -17,7 +17,7 @@ const Navigation = () => {
             <span className="sidebar_link--positionTwo">Acceuil</span>
           </NavLink>
           <NavLink
-            to="/contact"
+            to="/ReactPortfolio/contact"
             className="sidebar_link--style"
             aria-label="Navigation : Chemin vers la page contact"
           >
@@ -27,7 +27,7 @@ const Navigation = () => {
             <span className="sidebar_link--positionTwo">Contact</span>
           </NavLink>
           <NavLink
-            to="/portfolio"
+            to="/ReactPortfolio/portfolio"
             className="sidebar_link--style"
             aria-label="Navigation : Chemin vers le portfolio"
           >
@@ -37,7 +37,7 @@ const Navigation = () => {
             <span className="sidebar_link--positionTwo">Portfolio</span>
           </NavLink>
           <NavLink
-            to="/competences"
+            to="/ReactPortfolio/competences"
             className="sidebar_link--style"
             aria-label="Navigation : Chemin vers la page compétences"
           >
