@@ -7,7 +7,7 @@ const Navigation = () => {
       <div className="navigationBarre">
         <div className="sidebar_link">
           <NavLink
-            to="/home"
+            to="/"
             className="sidebar_link--style"
             aria-label="Navigation : Chemin vers la page d'accueil"
           >
