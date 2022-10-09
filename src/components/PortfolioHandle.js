@@ -174,7 +174,11 @@ const PortfolioHandle = () => {
       </Carousel>
 
       <div className="portfolioContainer_texte">
-        <p>Voici mes réalisations.</p>
+        <p>
+          Voici mes réalisations. Il s'agit des projets que j'ai réalisé durant
+          ma formation initiale de développeur web. <br /> Vous retrouverez
+          également mes différents projets personnels.
+        </p>
       </div>
     </div>
   );

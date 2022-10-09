@@ -40,11 +40,21 @@
 
 .carousel{
     margin-top: 0.5rem;
+    & a > Button{
+        font-size: 1.1rem;
+        @media screen and (min-width: 768px) {
+            font-size: 1.4rem;
+        }
+        @media screen and (min-width: 1000px) {
+            font-size: 1.6rem;
+        }
+      }
     @media screen and (min-width: 426px) and (max-width: 767px){
         height: 75%;
     }
     &_link{
       color: black !important;  
+      
     }
     &-indicators{
         background-color: $color-2;
@@ -63,8 +73,14 @@
         }  
         & h3 + p{
             color: $color-2;
-            font-size: 1rem;
+            font-size: 1.1rem;
             font-weight: 700; 
+            @media screen and (min-width: 768px) {
+                font-size: 1.2rem;
+            }
+            @media screen and (min-width: 1000px) {
+                font-size: 1.4rem;
+            }
         }
     }
     &-inner{

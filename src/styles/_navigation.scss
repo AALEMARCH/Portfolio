@@ -18,6 +18,7 @@
             @include flex (space-around, column, flex-start);
             height: 100%;
             padding-left: 5rem;
+            font-size: 1.8rem;
         }
         @media screen and (min-width: 852px) {
            align-items: flex-start;

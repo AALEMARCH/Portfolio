@@ -26,27 +26,8 @@
         }
     }
 }
-// .imgModerate-container{
-// margin: 5rem auto 5rem auto;
-// height: 100%;
-// border-radius: 60%;
-// box-shadow: 0 0 0 4px $color-2, 0 0 0 9px $color-1;
-// width: 45%;
-// background: url(../../src/media/portrait.webp) no-repeat center/cover;
 
-// @media screen and (min-width: 426px) {
-//     width: 30%;
-//     }
-// @media screen and (min-width: 768px) {
-//     width: 20vw;
-//     }
-// }
-
-
-.imgModerate-container{
-    margin: 0rem auto 5rem auto;
-    }
-    .imgModerate{
+.imgModerate{
     position: relative;
     border-radius: 50%;
     box-shadow: 0 0 0 4px $color-2, 0 0 0 9px $color-1;
@@ -57,16 +38,11 @@
     @media screen and (min-width: 768px) {
         width: 20vw;
         }
+    &-container{
+        margin: 2rem auto 5rem auto;
     }
-
-.moderateName-container{
-    @include flex (center, column, center);
-    margin: 0rem 2rem;
-    font-family: $font-3;
-    @media screen and (min-width: 768px) {
-        margin: auto 5rem; 
-        }
 }
+
 .moderateName{
     font-size: 1.8rem;
     font-weight: 900;
@@ -75,6 +51,14 @@
     @media screen and (min-width: 768px) {
         font-size: 2.5rem;
         }
+    &-container{
+        @include flex (center, column, center);
+            margin: 0rem 2rem;
+            font-family: $font-3;
+        @media screen and (min-width: 768px) {
+            margin: auto 5rem; 
+        } 
+    }
 }
 .moderateFunction{
     font-size: 1.5rem;
@@ -95,9 +79,11 @@
 }
 .homeFooter{
     @include flex(space-around, row, center);
-    font-size: 1.4rem;
-    margin-top: 5rem;
-    &> a:hover{
-        color: $color-1;
+    margin-bottom: 1rem;
+    & a > Button{
+        font-size: 1.4rem;
+        @media screen and (min-width: 768px) {
+            font-size: 1.6rem;
+            }
     }
 }
