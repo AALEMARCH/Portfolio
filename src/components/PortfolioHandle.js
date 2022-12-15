@@ -7,6 +7,7 @@ import media3 from "../../src/media/laChouetteAgence_1.webp";
 import media4 from "../../src/media/kanap.webp";
 import media5 from "../../src/media/hotTakes.webp";
 import media6 from "../../src/media/groupomania.webp";
+import media7 from "../../src/media/calculatrice.webp";
 
 const PortfolioHandle = () => {
   return (
@@ -169,6 +170,36 @@ const PortfolioHandle = () => {
                 Lien vers le repository Github
               </Button>
             </a>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100" src={media7} alt="For slide" />
+
+          <Carousel.Caption>
+            <h3>Projet Calculatrice</h3>
+            <p>Calculatrice avec historique. HTML SASS JavaScript</p>
+            <div className="carousel_link">
+              <a
+                href="https://aalemarch.github.io/calculatrice/index.html"
+                target="_blank"
+                rel="noreferrer"
+                className="carousel_link"
+                aria-label="Portfolio : Chemin vers le projet Calculatrice"
+              >
+                <Button variant="outline-dark">Visiter le site web</Button>
+              </a>
+              <a
+                href="https://github.com/AALEMARCH/calculatrice"
+                target="_blank"
+                rel="noreferrer"
+                className="carousel_link"
+                aria-label="Portfolio : Chemin vers le code source du projet Calculatrice"
+              >
+                <Button variant="outline-dark">
+                  Lien vers le repository Github
+                </Button>
+              </a>
+            </div>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
