@@ -1,5 +1,5 @@
 import React from "react";
-import media from "../../src/media/cv_antoine_lemarchand-min.pdf";
+import media from "../../src/media/cv_antoine_lemarchand_compressed.pdf";
 import Button from "react-bootstrap/Button";
 
 const HomeFooter = () => {
