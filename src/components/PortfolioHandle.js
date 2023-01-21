@@ -8,6 +8,7 @@ import media4 from "../../src/media/kanap.webp";
 import media5 from "../../src/media/hotTakes.webp";
 import media6 from "../../src/media/groupomania.webp";
 import media7 from "../../src/media/calculatrice.webp";
+import media8 from "../../src/media/appMeteo.webp";
 
 const PortfolioHandle = () => {
   return (
@@ -200,6 +201,25 @@ const PortfolioHandle = () => {
                 </Button>
               </a>
             </div>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100" src={media8} alt="Five slide" />
+
+          <Carousel.Caption>
+            <h3>Projet en cours de développement</h3>
+            <p>Application Météo. Figma - appel API - JavaScript</p>
+            <a
+              href="https://github.com/AALEMARCH/application-meteo"
+              target="_blank"
+              rel="noreferrer"
+              className="carousel_link"
+              aria-label="Portfolio : Chemin vers le code source du projet appMeteo"
+            >
+              <Button variant="outline-dark">
+                Lien vers le repository Github
+              </Button>
+            </a>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
