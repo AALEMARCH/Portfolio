@@ -209,17 +209,28 @@ const PortfolioHandle = () => {
           <Carousel.Caption>
             <h3>Projet en cours de développement</h3>
             <p>Application Météo. Figma - appel API - JavaScript</p>
-            <a
-              href="https://github.com/AALEMARCH/application-meteo"
-              target="_blank"
-              rel="noreferrer"
-              className="carousel_link"
-              aria-label="Portfolio : Chemin vers le code source du projet appMeteo"
-            >
-              <Button variant="outline-dark">
-                Lien vers le repository Github
-              </Button>
-            </a>
+            <div className="carousel_link">
+              <a
+                href="https://application-meteo.fr/"
+                target="_blank"
+                rel="noreferrer"
+                className="carousel_link"
+                aria-label="Portfolio : Chemin vers le projet Application météo"
+              >
+                <Button variant="outline-dark">Visiter le site web</Button>
+              </a>
+              <a
+                href="https://github.com/AALEMARCH/application-meteo"
+                target="_blank"
+                rel="noreferrer"
+                className="carousel_link"
+                aria-label="Portfolio : Chemin vers le code source du projet appMeteo"
+              >
+                <Button variant="outline-dark">
+                  Lien vers le repository Github
+                </Button>
+              </a>
+            </div>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
