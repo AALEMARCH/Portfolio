@@ -14,7 +14,7 @@ const Navigation = () => {
             <span className="sidebar_link--positionOne">
               <i className="fa-solid fa-house-chimney"></i>
             </span>
-            <span className="sidebar_link--positionTwo">Acceuil</span>
+            <span className="sidebar_link--positionTwo">Accueil</span>
           </NavLink>
           <NavLink
             to="/ReactPortfolio/contact"
@@ -44,7 +44,7 @@ const Navigation = () => {
             <span className="sidebar_link--positionOne">
               <i className="fa-solid fa-kitchen-set"></i>
             </span>
-            <span className="sidebar_link--positionTwo">Compétence</span>
+            <span className="sidebar_link--positionTwo">Compétences</span>
           </NavLink>
         </div>
       </div>

@@ -42,7 +42,7 @@ const ContactHandle = () => {
       <div className="contact_container--positionTwo">
         <p>
           N'hésitez pas à me contacter. <br /> Je vous répondrais dès que
-          possible
+          possible.
         </p>
       </div>
     </div>
